@@ -50,3 +50,4 @@ resultado = dobrar(2,isLogado)
 console.log(resultado);
 
 
+const set = count=>count+1

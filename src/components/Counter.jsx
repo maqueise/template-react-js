@@ -3,7 +3,7 @@ export function Counter(){
     console.log('renderizou')
     const [count,setCount] = useState(0)
   function increment(){
-    setCount(count+1)
+    setCount(count=>count+1)
   }
   return (
     <section className="flex justify-center items-center">
